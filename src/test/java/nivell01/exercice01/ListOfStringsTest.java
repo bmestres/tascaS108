@@ -8,7 +8,7 @@ import java.util.List;
 
 public class ListOfStringsTest {
     @Test
-    void outputListContainsAllElementsButTheOnesWithO() {
+    void outputOnlyContainsElementsWithO() {
         ListOfStrings originalList = new ListOfStrings();
         List<String> filteredList = originalList.filterElementsWithLetterO();
 
