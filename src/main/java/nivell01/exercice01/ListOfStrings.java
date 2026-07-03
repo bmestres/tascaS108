@@ -1,6 +1,5 @@
 package nivell01.exercice01;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class ListOfStrings {
@@ -10,10 +9,13 @@ public class ListOfStrings {
         return stringList;
     }
 
-    public List<String> filterElementsWithLetterO(List<String>strings){
-        List<String> elementsWithO = new ArrayList<String>();
+    public List<String> filterElementsWithLetterO(){
+        return stringList.stream().filter((string) -> string.contains("o") || string.contains("O")).toList();
+    }
 
-        return strings.stream().filter((string) -> string.contains("o") || string.contains("O")).toList();
-
+    public void printList(List<String> listToPrint){
+        for(String elem : listToPrint){
+            System.out.format("\"%s\", ", elem);
+        }
     }
 }
