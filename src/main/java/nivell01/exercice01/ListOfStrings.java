@@ -10,7 +10,7 @@ public class ListOfStrings {
 
     public List<String> filterElementsWithLetterO() {
 
-        Predicate<String> stringFilter = (string)-> string.contains("o") || string.contains("O");
+        Predicate<String> stringFilter = (string) -> string.contains("o") || string.contains("O");
         return STRING_LIST.stream().filter(stringFilter).toList();
     }
 }
