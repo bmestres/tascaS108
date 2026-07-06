@@ -1,10 +1,10 @@
-package nivell01.exercici06;
+package nivell01.exercici07;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import static nivell01.exercici06.StringsSort.LengthOrder;
+import static nivell01.exercici07.StringsSort.LengthOrder;
 
 
 public class Main {
