@@ -8,7 +8,7 @@ public class Main {
        reversed.reverse();
        return reversed.toString();};
 
-       String text = "Esternoclidomastoidal";
+       String text = "origami";
        String textReverse = stringReverser.reverse(text);
 
        System.out.format("%s", textReverse);
