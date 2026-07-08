@@ -13,9 +13,6 @@ public class Main {
 
         List<String> mappedATo4 = MixedList.mapAto4(unsortedMixedList);
 
-
-
-
-
+        List<String>numericalElementsOnly = MixedList.filterNumericalOnly(unsortedMixedList);
     }
 }
