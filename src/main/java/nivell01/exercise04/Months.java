@@ -7,7 +7,6 @@ public class Months {
 
     public Months() {
     }
-
     public List<String> getMonthsList() {
         return MONTHS_LIST;
     }

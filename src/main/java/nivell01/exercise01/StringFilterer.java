@@ -4,7 +4,6 @@ import java.util.List;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
-
 public class StringFilterer {
 
     public static List<String> filterElementsWithLetterO(List<String> originalList) {

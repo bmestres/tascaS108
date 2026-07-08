@@ -13,6 +13,4 @@ public class StringFilterer {
         Predicate<String> stringFilter = (string) -> ((string.contains("o") || string.contains("O")) && string.length() > MAX_LENGTH);
         return originalList.stream().filter(stringFilter).collect(toList());
     }
-
-
 }

@@ -1,4 +1,4 @@
-package nivell01.exercici07;
+package nivell01.exercise07;
 
 import java.util.Comparator;
 
