@@ -4,7 +4,18 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        List<Object> unsortedMixedList = List.of("party", 12, "morning", 7, 42, "runtime", "sunshine", 3);
-        List<Object> sortedMixedList = MixedList.sortAlphabetically(unsortedMixedList);
+
+        List<String> unsortedMixedList = List.of("party", "12", "morning", "7", "42", "runtime", "sunshine", "3", "aviation");
+
+        List<String> sortedAlphabetically = MixedList.sortAlphabetically(unsortedMixedList);
+
+        List<String> sortedEFirst = MixedList.sortEFirst(unsortedMixedList);
+
+        List<String> mappedATo4 = MixedList.mapAto4(unsortedMixedList);
+
+
+
+
+
     }
 }
