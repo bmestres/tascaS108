@@ -1,4 +1,4 @@
-package nivell01.exercice03;
+package nivell02.exercise03;
 
 public class Main {
     public static void main(String[] args) {
@@ -7,6 +7,5 @@ public class Main {
         Numbers subtraction = (number1, number2) -> {return number1 - number2;};
         Numbers product = (number1, number2) -> {return number1*number2;};
         Numbers division =(number1, number2) -> {return number1/number2;};
-
     }
 }
