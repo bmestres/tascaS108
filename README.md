@@ -116,9 +116,7 @@ java -cp target/classes nivell02.exercise03.Main
 ### Exercise 4:
 **Description**
 
-Creates a list containing some strings of text and numbers.
-
-Then, sort it alphabetically by the first character, 
+Creates a list containing some strings of text and numbers. Then, sorts it alphabetically by the first character, 
 strings that contain an "e" first and the rest of the strings later,
 Mmdifyes all items in the list that have an 'a' by a ‘4’, 
 and finally, shows only numeric items.
