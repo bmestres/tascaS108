@@ -17,6 +17,5 @@ public class CSVBuilderTest {
         String mappedString = CSVBuilder.integerListToCsvString(originalListOfIntegers);
 
         assertThat(mappedString).isEqualTo("o3, e8, o1, e12, o7, e24, o33, o45");
-
     }
 }

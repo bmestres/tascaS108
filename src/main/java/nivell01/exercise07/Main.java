@@ -13,7 +13,7 @@ public class Main {
         List<Object> numbersAndString = List.of("cat", "blue", 42, 7, "sunshine", 3, "party", 12, 25, "runtime");
         List<Object> orderedList = new ArrayList<>(numbersAndString);
 
-        orderedList.sort(lengthOrder);
+       // orderedList.sort(lengthOrder);
 
         System.out.print(orderedList);
     }

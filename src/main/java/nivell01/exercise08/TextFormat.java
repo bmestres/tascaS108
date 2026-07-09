@@ -2,6 +2,16 @@ package nivell01.exercise08;
 
 public class TextFormat {
 
-    public static Text StringReverser = (string) -> {StringBuilder reversed = new StringBuilder(string);
-        return reversed.reverse().toString();};
+    public static String textReverse (String originalText){
+
+        Text stringReverse = (string) -> {
+            String r = "";
+            for(int i = 0; i < string.length(); i++){
+                r = string.charAt(i) + r;
+            }
+            return r;
+        };
+        return stringReverse.reverse(originalText);
+    }
+
 }

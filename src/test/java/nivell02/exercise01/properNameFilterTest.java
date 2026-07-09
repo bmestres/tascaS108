@@ -13,7 +13,7 @@ public class properNameFilterTest {
         List<String> properNames = List.of("Ana", "Samuel", "Sofia", "Leo", "Ander",
                 "Daniel", "Ada", "Maria", "Hugo");
 
-        List<String> filteredNames = ProperNameFilter.filterElements(properNames);
+        List<String> filteredNames = ProperNameFilter.filterStartingWithAAndLargerThanFive(properNames);
 
         assertThat(filteredNames).containsExactly("Ana", "Ada");
     }

@@ -12,7 +12,7 @@ public class Main {
 
         System.out.println();
 
-       List<String> filteredNames = ProperNameFilter.filterElements(properNames);
+       List<String> filteredNames = ProperNameFilter.filterStartingWithAAndLargerThanFive(properNames);
 
         System.out.println("Filtered list:");
         ListPrinter.printList(filteredNames);

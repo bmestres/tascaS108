@@ -11,7 +11,7 @@ public class StringInReverseTest {
         String originalString = "origami";
         final String expectedString = "imagiro";
 
-        String textInReverse = TextFormat.StringReverser.reverse(originalString);
+        String textInReverse = TextFormat.textReverse(originalString);
 
         assertThat(textInReverse).isEqualTo(expectedString);
     }

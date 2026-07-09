@@ -26,10 +26,12 @@ public class MixedList {
     }
 
     public static List <String> mapAto4(List<String>unmappedList){
-        return unmappedList.stream().map((element) -> element.replace('a', '4')).collect(Collectors.toList());
+        return unmappedList.stream().map((element) -> element.replace('a', '4'))
+                .collect(Collectors.toList());
     }
 
     public static List <String> filterNumericalOnly(List<String> unfilteredList){
-        return unfilteredList.stream().filter((String element) -> {return element.matches("\\d+");}).collect(Collectors.toList());
+        return unfilteredList.stream().filter((String element) -> {return element.matches("\\d+");})
+                .collect(Collectors.toList());
     }
 }
