@@ -5,7 +5,7 @@ import nivell01.exercise01.StringsList;
 import java.util.List;
 
 public class Main {
-    public static void main(String[] args) {
+    static void main(String[] args) {
 
         System.out.println("Original list:");
         ListPrinter.printList(StringsList.LIST_OF_STRINGS);

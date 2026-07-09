@@ -1,7 +1,7 @@
 package nivell02.exercise03;
 
 public class Main {
-    public static void main(String[] args) {
+    static void main(String[] args) {
 
         Numbers sum = (number1, number2) -> {return number1 + number2;};
         Numbers subtraction = (number1, number2) -> {return number1 - number2;};

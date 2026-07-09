@@ -3,7 +3,7 @@ package nivell01.exercise01;
 import java.util.List;
 
 public class Main {
-    public static void main(String[] args) {
+    static void main(String[] args) {
 
        List<String> originalList = StringsList.LIST_OF_STRINGS;
 

@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Main {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         List<Integer> originalListOfIntegers = List.of(3, 8, 1, 12, 7, 24, 33, 45);
 
         String mappedString = CSVBuilder.integerListToCsvString(originalListOfIntegers);

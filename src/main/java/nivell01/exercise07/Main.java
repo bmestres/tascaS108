@@ -8,7 +8,7 @@ import static nivell01.exercise07.StringsSortReverse.lengthOrder;
 
 public class Main {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
 
         List<Object> numbersAndString = List.of("cat", "blue", 42, 7, "sunshine", 3, "party", 12, 25, "runtime");
         List<Object> orderedList = new ArrayList<>(numbersAndString);
